@@ -22,6 +22,7 @@
 		5252A2CF1E634A8200E7F979 /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252A2C71E634A8200E7F979 /* ItemType+CoreDataClass.swift */; };
 		5252A2D01E634A8200E7F979 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252A2C81E634A8200E7F979 /* ItemType+CoreDataProperties.swift */; };
 		5252A2D51E638A9600E7F979 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252A2D41E638A9600E7F979 /* MaterialView.swift */; };
+		5252A2D71E6394DC00E7F979 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252A2D61E6394DC00E7F979 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		5252A2C71E634A8200E7F979 /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ItemType+CoreDataClass.swift"; path = "../ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
 		5252A2C81E634A8200E7F979 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ItemType+CoreDataProperties.swift"; path = "../ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5252A2D41E638A9600E7F979 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		5252A2D61E6394DC00E7F979 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				5252A2D41E638A9600E7F979 /* MaterialView.swift */,
+				5252A2D61E6394DC00E7F979 /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5252A2D71E6394DC00E7F979 /* ItemCell.swift in Sources */,
 				5252A2CC1E634A8200E7F979 /* Item+CoreDataProperties.swift in Sources */,
 				5252A2CB1E634A8200E7F979 /* Item+CoreDataClass.swift in Sources */,
 				5252A2CF1E634A8200E7F979 /* ItemType+CoreDataClass.swift in Sources */,
