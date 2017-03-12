@@ -2,7 +2,7 @@
 //  Store+CoreDataProperties.swift
 //  DreamLister
 //
-//  Created by Junior Samaroo on 2017-02-26.
+//  Created by Junior Samaroo on 2017-03-11.
 //  Copyright © 2017 Junior Samaroo. All rights reserved.
 //
 
@@ -16,6 +16,7 @@ extension Store {
         return NSFetchRequest<Store>(entityName: "Store");
     }
 
+    @NSManaged public var name: String?
     @NSManaged public var toImage: Image?
     @NSManaged public var toItem: NSSet?
 

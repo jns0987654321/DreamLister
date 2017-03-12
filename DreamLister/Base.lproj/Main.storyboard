@@ -223,6 +223,9 @@
                                 <state key="normal" title="Save Item">
                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="savePressed:" destination="wL9-xe-qcZ" eventType="touchUpInside" id="see-dB-8fO"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQ7-pr-EJ3">
                                 <rect key="frame" x="109" y="255" width="102" height="21"/>
@@ -265,6 +268,12 @@
                             <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="detailsField" destination="zh8-Fv-Ad6" id="L5j-01-Kb8"/>
+                        <outlet property="priceField" destination="we4-uV-OtU" id="x3v-jk-pt2"/>
+                        <outlet property="storePicker" destination="5AZ-ml-2fx" id="02J-YG-72j"/>
+                        <outlet property="titleField" destination="Clp-25-uPx" id="G5H-Da-buf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T3l-UF-xZe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

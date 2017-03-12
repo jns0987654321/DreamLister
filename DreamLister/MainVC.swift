@@ -76,6 +76,9 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
         
         let controller = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: context, sectionNameKeyPath: nil, cacheName: nil)
         
+        // All methods will now listen
+        controller.delegate = self
+        
         // set outside controller to inside controller
         self.controller = controller
         
