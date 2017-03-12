@@ -21,10 +21,10 @@
 		5252A2D71E6394DC00E7F979 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252A2D61E6394DC00E7F979 /* ItemCell.swift */; };
 		5252A2DA1E74A16500E7F979 /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252A2D91E74A16500E7F979 /* ItemDetailsVC.swift */; };
 		5252A2DC1E74A57A00E7F979 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252A2DB1E74A57A00E7F979 /* CustomTextField.swift */; };
-		5252A2E91E74BD4900E7F979 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252A2E51E74BD4900E7F979 /* Image+CoreDataProperties.swift */; };
 		5252A2EA1E74BD4900E7F979 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252A2E61E74BD4900E7F979 /* ItemType+CoreDataProperties.swift */; };
 		5252A2EB1E74BD4900E7F979 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252A2E71E74BD4900E7F979 /* Item+CoreDataProperties.swift */; };
 		5252A2EC1E74BD4900E7F979 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252A2E81E74BD4900E7F979 /* Store+CoreDataProperties.swift */; };
+		5252A2EE1E75022900E7F979 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252A2ED1E75022900E7F979 /* Image+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,10 +44,10 @@
 		5252A2D61E6394DC00E7F979 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		5252A2D91E74A16500E7F979 /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
 		5252A2DB1E74A57A00E7F979 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		5252A2E51E74BD4900E7F979 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Image+CoreDataProperties.swift"; path = "../Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5252A2E61E74BD4900E7F979 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ItemType+CoreDataProperties.swift"; path = "../ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5252A2E71E74BD4900E7F979 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Item+CoreDataProperties.swift"; path = "../Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5252A2E81E74BD4900E7F979 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Store+CoreDataProperties.swift"; path = "../Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5252A2ED1E75022900E7F979 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Image+CoreDataProperties.swift"; path = "../Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 		5252A2D21E634AA200E7F979 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
-				5252A2E51E74BD4900E7F979 /* Image+CoreDataProperties.swift */,
+				5252A2ED1E75022900E7F979 /* Image+CoreDataProperties.swift */,
 				5252A2E61E74BD4900E7F979 /* ItemType+CoreDataProperties.swift */,
 				5252A2E71E74BD4900E7F979 /* Item+CoreDataProperties.swift */,
 				5252A2E81E74BD4900E7F979 /* Store+CoreDataProperties.swift */,
@@ -212,9 +212,9 @@
 				5252A2D71E6394DC00E7F979 /* ItemCell.swift in Sources */,
 				5252A2CB1E634A8200E7F979 /* Item+CoreDataClass.swift in Sources */,
 				5252A2CF1E634A8200E7F979 /* ItemType+CoreDataClass.swift in Sources */,
-				5252A2E91E74BD4900E7F979 /* Image+CoreDataProperties.swift in Sources */,
 				5252A2D51E638A9600E7F979 /* MaterialView.swift in Sources */,
 				5252A28D1E633F5700E7F979 /* MainVC.swift in Sources */,
+				5252A2EE1E75022900E7F979 /* Image+CoreDataProperties.swift in Sources */,
 				5252A2DA1E74A16500E7F979 /* ItemDetailsVC.swift in Sources */,
 				5252A28B1E633F5700E7F979 /* AppDelegate.swift in Sources */,
 				5252A2CD1E634A8200E7F979 /* Store+CoreDataClass.swift in Sources */,

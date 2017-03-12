@@ -33,6 +33,9 @@
                                     <segment title="Title"/>
                                 </segments>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="segmentChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="ycf-a3-ss8"/>
+                                </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="150" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="v2o-gA-Ppi">
                                 <rect key="frame" x="16" y="132" width="288" height="436"/>
@@ -170,12 +173,15 @@
                                     <constraint firstAttribute="height" constant="100" id="yMT-dD-9xu"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHc-xo-mup">
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHc-xo-mup">
                                 <rect key="frame" x="16" y="72" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="EEE-iQ-zsX"/>
                                     <constraint firstAttribute="width" constant="100" id="nD5-gU-IcN"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="addImage:" destination="wL9-xe-qcZ" eventType="touchUpInside" id="kEQ-lO-jvw"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Clp-25-uPx" customClass="CustomTextField" customModule="DreamLister" customModuleProvider="target">
                                 <rect key="frame" x="124" y="82" width="180" height="40"/>
@@ -266,12 +272,16 @@
                     <navigationItem key="navigationItem" title="Add/Edit" id="8OG-hW-GC8">
                         <barButtonItem key="rightBarButtonItem" systemItem="trash" id="p9p-jF-iYZ">
                             <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="deletePressed:" destination="wL9-xe-qcZ" id="Wxd-PW-VX3"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="detailsField" destination="zh8-Fv-Ad6" id="L5j-01-Kb8"/>
                         <outlet property="priceField" destination="we4-uV-OtU" id="x3v-jk-pt2"/>
                         <outlet property="storePicker" destination="5AZ-ml-2fx" id="02J-YG-72j"/>
+                        <outlet property="thumbImg" destination="bRM-va-CRb" id="cYq-hl-fqH"/>
                         <outlet property="titleField" destination="Clp-25-uPx" id="G5H-Da-buf"/>
                     </connections>
                 </viewController>
